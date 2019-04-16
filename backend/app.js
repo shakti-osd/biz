@@ -10,7 +10,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb://biztest:biz123@ds139946.mlab.com:39946/biztest",    
+    "mongodb://biz2credit:biz123@ds239936.mlab.com:39936/biz2credit"
   )
   .then(() => {
     console.log("Connected to database!");
